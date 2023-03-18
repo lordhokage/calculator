@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="output">
+        <input type="text" dir="rtl" />
+      </div>
+      <div class="btn-container">
+        <button id="seven">7</button>
+        <button id="eight">8</button>
+        <button id="nine">9</button>
+        <button id="del">DEL</button>
+        <button id="four" onclick="handleClick(this.id)">4</button>
+        <button id="five" onclick="handleClick(this.id)">5</button>
+        <button id="six" onclick="handleClick(this.id)">6</button>
+        <button id="plus" onclick="handleClick(this.id)">+</button>
+        <button id="one" onclick="handleClick(this.id)">1</button>
+        <button id="two" onclick="handleClick(this.id)">2</button>
+        <button id="three" onclick="handleClick(this.id)">3</button>
+        <button id="minus" onclick="handleClick(this.id)">-</button>
+        <button id="period" onclick="handleClick(this.id)">.</button>
+        <button id="zero" onclick="handleClick(this.id)">0</button>
+        <button id="divide" onclick="handleClick(this.id)">/</button>
+        <button id="multiply" onclick="handleClick(this.id)">x</button>
+        <button id="reset" class="reset" onclick="handleClick(this.id)">
+          RESET
+        </button>
+        <button id="equal" class="equal" onclick="handleClick(this.id)">
+          =
+        </button>
+      </div>
+    </div>
+
+    <script src="scrip.js" type="module"></script>
+  </body>
+</html>
